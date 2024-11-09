@@ -1,6 +1,6 @@
 #### External Leak because he sent me rat with another source so I will share the sources !!! ( if you ears about Zeropoint from EPVP dont buy it will smell of virus )
 ##### ( using medal tv for overlay )
-##### update and working now 2024-11-09 ( just add ur own driver )
+##### update and working now update v31.51 ( just add ur own driver )
 ##### old screenshoot ( but same menu )
 ![image (1)](https://github.com/user-attachments/assets/eecd2e48-dc4b-4c7e-8816-d478fe5710c2)
 #### VIRUS PROOF
