@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{e9bc1b57-4c32-421c-a7cb-96bd23f18022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Aimbot">
+      <UniqueIdentifier>{f14ca75c-427a-47d1-86dd-274e9082262c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Memory">
+      <UniqueIdentifier>{48ae4b1c-e4b6-4f97-9d0d-86b0c66e916e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Overlay">
+      <UniqueIdentifier>{8e82bb04-a612-4864-828d-0b727d3fdd68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Game">
+      <UniqueIdentifier>{df584d4f-57d8-4e60-a9dd-e3b5ed6cce6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Game\Drawing">
+      <UniqueIdentifier>{74134cfa-595a-46d7-afcb-f9946b47f7fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Game\Functions">
+      <UniqueIdentifier>{1e5443dc-d09d-4ff3-aca1-d05835bb58fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Overlay\Include">
+      <UniqueIdentifier>{6c894890-653e-4700-a6fa-790a20dbd3ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Game\helper">
+      <UniqueIdentifier>{e9da14a7-e3d7-4b2f-af97-a2283cd694ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Overlay\Particles">
+      <UniqueIdentifier>{194bb526-b680-40d6-b8a4-187d40115efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies">
+      <UniqueIdentifier>{d9fc5620-6597-400f-a3ff-2dd8c34e290b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\Framework">
+      <UniqueIdentifier>{2de361b9-d76d-41d7-be65-a2a4f9bfb3f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\Framework\ImGui">
+      <UniqueIdentifier>{8bc85a01-662c-4e2c-89bb-47bfb0844b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\Includes">
+      <UniqueIdentifier>{cf2a52cb-f85d-4322-9a09-7ea4acab5b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\Includes\Utilites">
+      <UniqueIdentifier>{cb579987-79b4-4ffb-92a6-20697dfe9fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Overlay\MenuColors">
+      <UniqueIdentifier>{660cf99d-04d1-4f73-80a4-72af693616a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Overlay\Menu Properties">
+      <UniqueIdentifier>{5221723f-e9a7-4be6-826a-1a0b4dfa5ebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Aimbot\triggerbot">
+      <UniqueIdentifier>{29c995ee-ed5d-4a63-92ed-bdbfb143d907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Overlay\Helpers">
+      <UniqueIdentifier>{fb91304e-0560-44ef-ac36-9a592f07b60d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mouse">
+      <UniqueIdentifier>{55b27724-3483-4dcc-9174-e001dcfda480}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>Core\Dependencies\Framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Core\Dependencies\Framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>Core\Dependencies\Framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Core\Dependencies\Framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Core\Dependencies\Framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Core\Dependencies\Framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="menuproperties.cpp">
+      <Filter>Core\Overlay\MenuColors</Filter>
+    </ClCompile>
+    <ClCompile Include="driver.cpp">
+      <Filter>Core\Memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vectors.hpp">
+      <Filter>Core\Game\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>Core\Game\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.hpp">
+      <Filter>Core\Game\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>Core\Dependencies\Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>Core\Dependencies\Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Core\Dependencies\Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Core\Dependencies\Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Core\Dependencies\Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Core\Dependencies\Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Core\Dependencies\Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Core\Dependencies\Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.cpp">
+      <Filter>Core\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>Core\Dependencies\Includes\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="import.hpp">
+      <Filter>Core\Dependencies\Includes\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="cache.cpp">
+      <Filter>Core\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="font.hpp">
+      <Filter>Core\Dependencies\Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ue.hpp">
+      <Filter>Core\Game\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui.hpp">
+      <Filter>Core\Overlay\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="startup.hpp">
+      <Filter>Core\Dependencies\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.hpp">
+      <Filter>Core\Dependencies\Includes\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.hpp">
+      <Filter>Core\Dependencies\Includes\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="keybind.hpp">
+      <Filter>Core\Dependencies\Includes\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="xorst.h">
+      <Filter>Core\Dependencies\Includes\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="cache_helper.hpp">
+      <Filter>Core\Game\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="particles.hpp">
+      <Filter>Core\Overlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="menucol.h">
+      <Filter>Core\Overlay\MenuColors</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Core\Overlay\Menu Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="triggerbothelper.h">
+      <Filter>Core\Aimbot\triggerbot</Filter>
+    </ClInclude>
+    <ClInclude Include="imports.h">
+      <Filter>Core\Aimbot\triggerbot</Filter>
+    </ClInclude>
+    <ClInclude Include="hider.h">
+      <Filter>Core\Aimbot\triggerbot</Filter>
+    </ClInclude>
+    <ClInclude Include="prediction.hpp">
+      <Filter>Core\Game\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="crypter.h">
+      <Filter>Core\Overlay\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="fortnitefont.h">
+      <Filter>Core\Dependencies\Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="lightfont.h">
+      <Filter>Core\Dependencies\Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="lazyyyy.hpp" />
+    <ClInclude Include="OverlayHelper.h">
+      <Filter>Core\Overlay\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="render.hpp">
+      <Filter>Core\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="fontawesome.h">
+      <Filter>Core\Dependencies\Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver.h">
+      <Filter>Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="module_spoofing.h">
+      <Filter>Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse\lib.hpp">
+      <Filter>mouse</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="ImGui\d3d11.lib">
+      <Filter>Core\Dependencies\Framework\ImGui</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
